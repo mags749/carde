@@ -1,0 +1,29 @@
+{
+  "name": "carde",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@tamagui/config": "^1.116.12",
+    "expo": "~52.0.0-preview.21",
+    "expo-camera": "~16.0.3",
+    "expo-font": "~13.0.1",
+    "expo-splash-screen": "~0.29.3",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.1",
+    "tamagui": "^1.116.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
